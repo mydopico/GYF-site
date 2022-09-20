@@ -1,0 +1,192 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #7ab200;
+}
+
+.section-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #7ab200;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #eeeeee;
+  color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.seed-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  height:100vh;
+  width: 100vw;
+  background-color: #7ab200;
+  color: #fff;
+  text-align: left;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+  url("https://images.unsplash.com/photo-1586288415925-d7affaf2d1f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.special-font {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7ab200;  
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #7ab200;
+  margin-bottom: 1rem; 
+}
+
+.icon:hover {
+  color: #ff4c68;  
+}
+
+
+
+/* Start Section */
+
+#start {
+  padding: 100px;
+}
+
+.start-column {
+  padding: 3% 2%;
+  text-align: left;
+}
+
+.img-fluid {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 50% 20% / 10% 40%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #7ab200;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("https://images.unsplash.com/photo-1533460004989-cef01064af7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+/* Footer Section */
+#footer {
+ box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); 
+}
+
+
+.social-icon {
+  color: #7ab200;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  margin: 20px 10px;  
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+ 
+}
