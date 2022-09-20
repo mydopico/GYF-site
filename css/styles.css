@@ -80,7 +80,7 @@ p {
 /* Title Section */
 
 #title {
-  height:100vh;
+  height:650px;
   /* width: 100vw; */
   background-color: #7ab200;
   color: #fff;
@@ -93,6 +93,7 @@ p {
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  height:100vh;
 }
 
 .special-font {
@@ -190,7 +191,10 @@ p {
 @media (max-width: 1028px) {
 
   #title {
-    text-align: center;
+    text-align: center;    
+  }
+  .special-font {
+    font-size: 32px;
   }
  
 }
